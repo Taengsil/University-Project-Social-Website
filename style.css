@@ -1,0 +1,53 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+body {
+    background-color: Gainsboro;
+    font-size: 1.1em;
+    font-family: 'Lora', serif;
+  }
+.form-div{
+    background-color: white;
+    margin: 50px auto 50px;
+    padding: 25px 15px 10px 15px;
+    border: 1px solid #80ced7;
+    border-radius: 5px;
+
+}
+
+/* .form-control:focus {
+    box-shadow: none; 
+} */
+
+form p {
+    font-size: .89em;
+}
+
+.form-div.login {
+    margin-top: 10px;
+}
+
+.logout {
+    color: red;
+}
+
+.photo {
+    display: table;
+}
+.photo a {
+    vertical-align: middle;
+    display: table-cell;
+}
+.photo img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+textarea {
+    resize: none;
+ }
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
