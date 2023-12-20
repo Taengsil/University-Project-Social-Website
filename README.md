@@ -1,4 +1,4 @@
-<h1>What is this?</h1>
+<h1>Project Description</h1>
 
 A project I have worked on for my web development class in University. It is supposed to be a social media site, using HTML, CSS, PHP, MySql (using XAMPP as Php/SQL server). 
 
