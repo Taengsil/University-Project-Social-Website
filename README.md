@@ -194,3 +194,36 @@ This project reflects an early-stage understanding of:
 - Basic CRUD operations
   
 It serves as a learning milestone rather than a production-ready application.
+---
+## Possible Improvements
+
+This project meets the core requirements of a basic social media website, but there are several areas where it could be improved in terms of security, structure, scalability, and user experience in order for it to begin to resemble a production-ready application.
+
+### Security Improvements
+- Sanitize and validate all user inputs to prevent SQL injection and XSS vulnerabilities.
+- Replace remaining raw SQL queries with prepared statements consistently.
+- Add CSRF protection to all form submissions.
+- Improve file upload security by validating file type, size, and content.
+
+### Code Structure
+- Refactor the project into an MVC (Model–View–Controller) architecture to separate logic, presentation, and database access.
+- Reduce duplication in authentication and database-related logic across controllers.
+- Improve naming consistency and file organization for better maintainability.
+
+### Functionality Enhancements
+- Implement the like system (currently only UI assets exist without backend logic).
+- Add pagination for comments to improve performance with large datasets.
+- Improve user search with partial matching and filtering options.
+- Add password reset functionality and email verification for accounts.
+
+### User Experience
+- Improve responsiveness and mobile layout support.
+- Replace full page reload interactions with AJAX for smoother updates.
+- Add real-time updates for comments and interactions.
+
+### Database Improvements
+- Normalize database structure further for scalability.
+- Add indexing for frequently queried fields (e.g., username, email, receivinguserid).
+- Separate features such as comments, posts, and likes into dedicated tables if the project is extended.
+
+These improvements would significantly increase the robustness, scalability, and production readiness of the application.
